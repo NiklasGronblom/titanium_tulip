@@ -1,4 +1,5 @@
 ActiveAdmin.register Activity do
+  permit_params :name, :duration, :outdoor
 
 
   # See permitted parameters documentation:
